@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "gsap-trial": "^3.10.2",
+    "react-leaflet": "^3.2.5",
+    "react-router-dom": "^6.3.0"
+  }
+}
