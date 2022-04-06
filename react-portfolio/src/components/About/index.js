@@ -6,10 +6,10 @@ import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fort
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-
+    
     useEffect(() => {
-        return setTimeout(() => {
-            setLetterClass('text-animate-hover')
+        setTimeout(() => {
+            setLetterClass('text-animate-hover');
         }, 3000)
     }, [])
 
