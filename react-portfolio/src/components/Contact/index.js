@@ -3,6 +3,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState, useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import Loader from 'react-loaders'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -91,6 +92,7 @@ const Contact = () => {
                     </MapContainer> */}
                 </div>
             </div>
+            <Loader type='pacman' />
         </>
     )
 }
